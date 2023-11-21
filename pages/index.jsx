@@ -50,6 +50,18 @@ const Index = () => {
                   >
                     Repository
                   </Button>
+
+                  <Button
+                    variant="secondary"
+                    onClick={() => {
+                      window.open(
+                        "https://github.com/kinngh/shopify-polaris-playground",
+                        "_blank"
+                      );
+                    }}
+                  >
+                    Add product
+                  </Button>
                 </InlineStack>
               </BlockStack>
             </Card>
